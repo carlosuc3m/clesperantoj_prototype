@@ -57,7 +57,7 @@
 		<!-- <scijava.app.directory>/PATH/TO/YOUR/FIJI/Fiji.app/</scijava.app.directory> -->
 		<scijava.app.directory>/home/stephane/Documents/Fiji.app/</scijava.app.directory>
 		<!-- specify your cuda version (for windows users) -->
-    	<cuda.version>12</cuda.version>
+    	<cuda.version>12.1</cuda.version>
 	</properties>
 
 
@@ -168,7 +168,7 @@
 
 					<!-- For Windows, we need to link to the OpenCL library -->
 					<!-- todo: ship a ocl-ICD-loader with the native lib to avoid this linking? -->
-					<linkPath>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v{cuda.version}/lib/x64/</linkPath>
+					<!--<linkPath>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v{cuda.version}/lib/x64/</linkPath>-->
 
 				</linkPaths>
 				<copyLibs>true</copyLibs>
